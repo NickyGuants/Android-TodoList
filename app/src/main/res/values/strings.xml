@@ -12,4 +12,5 @@
     <string name="tasks">Tasks</string>
     <string name="enter_new_task">Enter new task</string>
     <string name="add_task">Add Task</string>
+    <string name="delete_complete">Delete complete</string>
 </resources>
