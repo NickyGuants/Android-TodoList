@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(R.layout.activity_main)
-        setSupportActionBar(binding.toolbar)
         todoAdapter = TodoAdapter(mutableListOf())
 
         val recyclerView =findViewById<RecyclerView>(R.id.recycle_view)
